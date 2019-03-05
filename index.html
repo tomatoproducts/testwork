@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>test</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form class="form" action="" method="post" enctype="x-www-form-urlencoded">
+  <h1 class="form__title">Категория</h1>
+  <span class="form__subtitle">Выберите категорию вашего проекта</span>
+  <label class="form__label">
+    <input class="form__input" type="text" name="category" value="Категория" readonly>
+  </label>
+  <div class="form__wrapp">
+    <div class="category form__select hidden">
+      <ul class="form__list">
+        <li class="form__list-item form__list-item--toggle">Разработка сайтов</li>
+        <li class="form__list-item form__list-item--current">Тексты</li>
+        <li class="form__list-item">Дизайн и арт</li>
+        <li class="form__list-item">Программирование</li>
+        <li class="form__list-item">Аутсорсинг и консалтинг</li>
+        <li class="form__list-item">Переводы</li>
+        <li class="form__list-item">Аудио/Видео</li>
+        <li class="form__list-item">Разработка игр</li>
+        <li class="form__list-item">Реклама и Маркетинг</li>
+        <li class="form__list-item">Фотография</li>
+      </ul>
+    </div>
+
+    <div class="subcategory form__select hidden">
+      <ul class="form__list">
+        <li class="form__list-item">Копирайтинг</li>
+        <li class="form__list-item">Редактирование/Корректура</li>
+        <li class="form__list-item">Статьи</li>
+        <li class="form__list-item">Рерайтинг</li>
+        <li class="form__list-item">Контент-менеджер</li>
+        <li class="form__list-item">Расшифровка аудио/видео</li>
+        <li class="form__list-item">Сканирование и распознавание</li>
+        <li class="form__list-item">Рефераты/Курсовые/Дипломы</li>
+        <li class="form__list-item">Стихи/Поэмы/Эссе</li>
+        <li class="form__list-item">Постинг</li>
+      </ul>
+    </div>
+  </div>
+  <label class="form__label-btn">
+    <input class="form__btn" type="submit" value="Далее: Название" disabled>
+    <span class="form__arrow-right"></span>
+    <span class="form__arrow-left"></span>
+  </label>
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>
